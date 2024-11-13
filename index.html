@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SkyScout</title>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header class="navbar">
+        <div class="auth-container">
+            <!-- Register Button -->
+            <div class="auth-btn">
+                <button class="registerBtn" type="button">
+                    Register
+                </button>
+            </div>
+            <!-- Sign In Button -->
+            <div class="auth-btn">
+                <button class="signinBtn" type="button">
+                    Sign In
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Page Section -->
+    <main class="front-page">
+        <section class="search-form">
+            <div class="search-form-navigation">
+                <ul class="search-form-opt">
+                    <li>Roundtrip</li>
+                    <li>One-way</li>
+                    <li>Multi-city</li>
+                </ul>
+                <select class="search-form-dropdownlist">
+                    <option>Economy</option>
+                    <option>Premium Economy</option>
+                    <option>Business Class</option>
+                    <option>First Class</option>
+                </select>
+            </div>
+
+            <div class="search-form-input-information">
+                <!-- Leaving from input -->
+                <input type="text" name="leavingFrom" placeholder="Leaving from">
+                <!-- Going to input -->
+                <input type="text" name="goingTo" placeholder="Going to">
+                <!-- Departure date input -->
+                <input type="date" name="departureDate">
+                <!-- Return date input (assuming roundtrip) -->
+                <input type="date" name="returnDate" placeholder="Return date">
+                <!-- Search button -->
+                <button class="search-btn">Search</button>
+
+                <!-- Additional options -->
+                <div class="additional-options">
+                    <label for="placetostay">
+                        <input type="checkbox" name="placetostay" id="placetostay"> Place to stay
+                    </label>
+                    <label for="car-option">
+                        <input type="checkbox" name="car-option" id="car-option"> Add a car
+                    </label>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    </div>
+    
+    
+</body>
+</html>
